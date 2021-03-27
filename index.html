@@ -1,40 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            h1, h2
-            {
-                font-family: Arial, Helvetica, sans-serif;
-                text-align: center;
-            }
-
-            .fa-code-branch
-            {
-                color: #dee0e3;
-                margin-top: 200px;
-                font-size: 500px;
-                transition: color 0.5s;
-            }
-
-            div
-            {
-                display: flex;
-                justify-content: center;
-                width: 100%;
-            }
-
-            .fa-code-branch:hover
-            {
-                color: #e6d755;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/d378015fe2.js" crossorigin="anonymous"></script>
+        <script src="logic.js"></script>
     </head>
     <body>
-        <h1>Hoi der, website under construction!</h1>
-        <h2>Pls come back later!</h2>
-        <div>
-            <i class="fas fa-code-branch"></i>
+        <div class="construction" id="construction">
+            <h1>Hoi der, website under construction!</h1>
+            <h2>Pls come back later!</h2>
+            <div class="icon">
+                <i class="fas fa-code-branch"></i>
+            </div>
+            <input type="password" class="input" id="input">
+            <button class="login" id="login">Login</button>
+        </div>
+        <div class="linktonext">
+            <a href="other/main.html"><button class="gotodemo">Go to demo</button></a>
         </div>
     </body>
 </html>

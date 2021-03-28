@@ -10,7 +10,7 @@ window.onload = function()
         if(textfield.value == password)
         {
             localStorage.setItem('loggedIn', true);
-            construction.classList.add('hidden');
+            window.location.replace("http://datsmin.xyz/bot");
         } else
         {
             console.log('nope');

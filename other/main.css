@@ -52,3 +52,17 @@ body
     margin-bottom: 0;
     background: #2c2f33;
 }
+
+.pfp
+{
+    border-radius: 30px;
+    border: 2px solid white;
+    margin-right: 7px;
+}
+
+.user
+{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}

@@ -65,4 +65,10 @@ body
     display: flex;
     justify-content: center;
     font-family: sans-serif;
+    line-height: 34px;
+}
+
+.usertag
+{
+    margin-left: -1;
 }

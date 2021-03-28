@@ -21,7 +21,7 @@ window.onload = function()
     {
         if(localStorage.getItem('loggedIn'))
         {
-            construction.classList.add('hidden');
+            window.location.replace("http://datsmin.xyz/bot");
         }
     }
 

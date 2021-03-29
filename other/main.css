@@ -76,7 +76,6 @@ body
 
 .why
 {
-    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -185,6 +184,7 @@ code
 
 .exampleimage:hover
 {
+    margin-bottom: 5px;
     margin-top: 15px;
 }
 
@@ -201,6 +201,7 @@ code
 .exampleimage2:hover
 {
     margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .icons
@@ -272,4 +273,22 @@ code
 {
     display: block;
     margin-bottom: 0px;
+}
+
+.datsminText
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    animation-play-state: paused;
+    animation-name: flashText;
+    animation-duration: 4s;
+}
+
+@keyframes flashText
+{
+    0% {opacity: 0%;}
+    50% {opacity: 100%;}
+    100% {opacity: 0%;}
 }

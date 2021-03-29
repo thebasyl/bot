@@ -10,7 +10,7 @@ window.onload = function()
         if(textfield.value == password)
         {
             localStorage.setItem('loggedIn', true);
-            window.location.replace("http://datsmin.xyz/bot/other/main.html");
+            window.location.replace('other/main.html');
         } else
         {
             console.log('nope');
@@ -21,7 +21,7 @@ window.onload = function()
     {
         if(localStorage.getItem('loggedIn'))
         {
-            window.location.replace("http://datsmin.xyz/bot/other/main.html");
+            window.location.replace('other/main.html');
         }
     }
 

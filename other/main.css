@@ -292,3 +292,21 @@ code
     50% {opacity: 100%;}
     100% {opacity: 0%;}
 }
+
+.header
+{
+    background: #2c2f33;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.invite
+{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}

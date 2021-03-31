@@ -1,0 +1,33 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.blob
+{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+
+.commandstext
+{
+    margin-top: 200px;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 130px;
+    color: white;
+}
+
+body
+{
+    background: rgb(55, 57, 62);
+}
+
+.container0
+{
+    background-color: #2c2f33;
+    display: block;
+    margin-bottom: 0px;
+}
